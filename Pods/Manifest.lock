@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (4.7.3)
+  - Kingfisher (4.10.0)
+  - PromiseKit (6.4.0):
+    - PromiseKit/CorePromise (= 6.4.0)
+    - PromiseKit/Foundation (= 6.4.0)
+    - PromiseKit/UIKit (= 6.4.0)
+  - PromiseKit/Alamofire (6.4.0):
+    - Alamofire (~> 4.0)
+    - PromiseKit/CorePromise
+  - PromiseKit/CorePromise (6.4.0)
+  - PromiseKit/Foundation (6.4.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.4.0):
+    - PromiseKit/CorePromise
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher (from `https://github.com/onevcat/Kingfisher.git`)
+  - PromiseKit
+  - PromiseKit/Alamofire
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - PromiseKit
+
+EXTERNAL SOURCES:
+  Kingfisher:
+    :git: https://github.com/onevcat/Kingfisher.git
+
+CHECKOUT OPTIONS:
+  Kingfisher:
+    :commit: 7596e4c01dee2e66f3d30f5cee0d0812b515dcf0
+    :git: https://github.com/onevcat/Kingfisher.git
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Kingfisher: 43c4b802d8b5256cf1f4379e9cd10b329be6d3e2
+  PromiseKit: ae3616f45d7bb9bf4ff1e91abc9b7a8c48a340e0
+
+PODFILE CHECKSUM: e91c50c8e6ee039ad437c3b3baf8878b2061063a
+
+COCOAPODS: 1.6.0.beta.2
